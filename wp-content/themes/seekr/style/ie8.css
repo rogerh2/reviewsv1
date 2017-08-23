@@ -1,0 +1,5 @@
+.hover-blog span, .hover-blog p,  .hover-blog h2 {
+    filter:alpha(opacity=0);
+}
+
+.content-left {padding-bottom: 30px}

@@ -1,0 +1,37 @@
+/*GREEN-2*/
+
+.header-top{
+    background-color: #387e7e;
+}
+
+.header-nav {
+    background:url("bg-header-nav.jpg") repeat-x top left;
+}
+
+.sf-shadow ul {
+    background: #285c5c url("bg-down-nav.png") repeat-x bottom left;
+}
+
+.action-home-button-center {
+    background: url("action-home-button-center.png") repeat-x top left;
+}
+
+.action-home-button-right {
+    background: url("action-home-button-right.png") no-repeat top left;
+}
+
+.latest-news-images {
+    background: url("latest-news-images.png") no-repeat top left;
+}
+
+.form .form-button input {
+    background: url("form-button-center.png") repeat-x top left;
+}
+
+.icon-comment{
+    background: url("icon-comment.png") repeat-x left bottom;
+}
+
+.copyright-content {
+    background-color: #387e7e;
+}
