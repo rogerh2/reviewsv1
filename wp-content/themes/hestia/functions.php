@@ -1,4 +1,6 @@
 <?php
+include(WP_CONTENT_DIR . '/print_lab_team.php');
+add_shortcode( 'print_lab_team_sc', 'print_lab_team' );
 /**
  * Hestia functions and definitions
  *
