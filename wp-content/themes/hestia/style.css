@@ -1594,7 +1594,7 @@ body:not(.home) .navbar-default .navbar-nav > .active > a, body:not(.home) .navb
   max-height: 50px;
 }
 .navbar .navbar-brand p {
-  font-size: 18px;
+  font-size: 36px;
   margin-bottom: 0;
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {

@@ -5,16 +5,16 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "git@github.com:Codeinwp/themeisle-sdk.git",
-            "reference": "f05bd8f0fe4d628424484e2bdd6d20ee65f454ee"
+            "url": "https://github.com/Codeinwp/themeisle-sdk.git",
+            "reference": "1fb829fd268e739864b6f1822239c1112d80853f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/f05bd8f0fe4d628424484e2bdd6d20ee65f454ee",
-            "reference": "f05bd8f0fe4d628424484e2bdd6d20ee65f454ee",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/1fb829fd268e739864b6f1822239c1112d80853f",
+            "reference": "1fb829fd268e739864b6f1822239c1112d80853f",
             "shasum": ""
         },
-        "time": "2017-08-08 22:09:54",
+        "time": "2017-08-22 16:09:34",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -38,7 +38,8 @@
             "wordpress"
         ],
         "support": {
-            "issues": "https://github.com/Codeinwp/themeisle-sdk/issues"
+            "issues": "https://github.com/Codeinwp/themeisle-sdk/issues",
+            "source": "https://github.com/Codeinwp/themeisle-sdk/tree/master"
         }
     }
 ]
