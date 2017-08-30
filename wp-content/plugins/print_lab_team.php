@@ -33,16 +33,17 @@ function print_lab_team(){
 		array_push($text_array,  '</div>');
 	}
 	foreach($lab_team_array as $lab_team_member){
-		$user = get_user_by('login',$lab_team_member);
+		$user = get_user_by('login',sanitize_user($lab_team_member));
 		if($user){
 			$user_id = $user->get('id');
+			$user_id_name = sanitize_user($lab_team_member);
 			$user_first_name = $user->get('first_name');
 			$user_last_name = $user->get('last_name');
 			$user_lab_name = get_user_meta( $user_id, 'lab_name', $single);
 			$user_lab_role = get_user_meta( $user_id, 'lab_role', $single);
 			if($user_last_name){
 				if($user_lab_name == $profile_lab_name){
-					array_push($text_array, '<a href="../../user/'.$user_id.'">'.$user_first_name.' '.$user_last_name.'</a>'.' • '.$user_lab_role[0].'<br>');
+					array_push($text_array, '<a href="../../user/'.$user_id_name.'">'.$user_first_name.' '.$user_last_name.'</a>'.' • '.$user_lab_role[0].'<br>');
 				}
 			}
 		} 
